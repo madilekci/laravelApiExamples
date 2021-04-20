@@ -6,7 +6,7 @@ Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsini
 
 - Clone project from GitHub.
 
-- Copy and change the lines in the .env.example file for database access :
+- Copy and change the lines in the .env.example file for database access :    <br>
     DB_DATABASE=example_db  <br>
     DB_USERNAME=root  <br>
     DB_PASSWORD=  <br>
