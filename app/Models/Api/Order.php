@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
+
 class Order extends Model
 {
     use HasFactory;
@@ -15,22 +16,21 @@ class Order extends Model
 
     public function user()
     {
-      return $this->hasOne(User::class);
+        return $this->hasOne(User::class);
     }
     public function isUpdatable()
     {
-      $shippingDate = Carbon::parse($this->attributes['shippingDate'] );
+        $shippingDate = Carbon::parse($this->attributes['shippingDate']);
 
-      if( $shippingDate->isPast() ){
-        return false;
-      }else {
-        return true;
-      }
+        if ($shippingDate->isPast()) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     public function setShippingDateAttribute($value)
     {
-      $this->attributes['shippingDate']=Carbon::parse($value)->format('Y-m-d');
+        $this->attributes['shippingDate']=Carbon::parse($value)->format('Y-m-d');
     }
-
 }

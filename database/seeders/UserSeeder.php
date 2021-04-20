@@ -13,9 +13,9 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-      User::factory()->count(3);
+        User::factory()->count(3);
 
-      DB::table('users')->insert([
+        DB::table('users')->insert([
            'name' => 'admin',
            'user_type' => 'admin',
            'email' => 'admin@admin.com',
