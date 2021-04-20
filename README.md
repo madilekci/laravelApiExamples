@@ -1,6 +1,6 @@
 ## Test Projesi
 
-Bu projede basit bir şekilde Laravel Api lerinin kullanım örneklerini görebilirsiniz.
+Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsiniz.
 
 ## Kurulum Adımları
 
