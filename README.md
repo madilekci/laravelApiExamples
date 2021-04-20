@@ -1,20 +1,21 @@
-## Test Projesi
+## Laravel Api Examples
 
-Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsiniz. <br>
-Örnek senaryo : A firması bir tedarikçi firmadır ve 3 müşterisi vardır. Bu 3 müşteri A firmasının
-API'ı üzerinden sipariş oluşturabilir, var olan siparişlerini görebilir ve 
-nakliye günü gelmemiş siparişlerini güncelleyebilirler. Ayrıca A firmasına ait bir admin kullanıcısı sadece bütün siparişler için işlem yapabilir. <br>
-Buna göre A firmasının API'ında olması gereken özellikler:
+You can see examples of simple Laravel API processes in this project. <br>
+Sample scenario: Firm A is a supplier and has 3 customers. These 3 customers can create an order through this API, view existing orders and
+update their orders whose shipping day has not passed. <br>
+In addition, an admin user belonging to company A can make transactions for all orders, regardless of who they belong to. <br>
+
+Accordingly, the features that company A should have in its API:
 <ul>
-    <li>Sisteme login olma</li>
-    <li>Yeni sipariş oluşturma</li>
-    <li>Nakliye günü gelmediyse sipariş güncelleme</li>
-    <li>Belirli bir siparişi görüntüleme ( orderCode ile )</li>
-    <li>Tüm siparişlerini listeleme</li>
-    <li>Yeni sipariş oluşturma</li>
+    <li> Login to the system </li>
+    <li> Create a new order </li>
+    <li> Update the order  if the shipping day has not passed</li>
+    <li> Displaying a specific order (with orderCode) </li>
+    <li> List orders </li>
+    <li> Create a new order </li>
 </ul>
 
-## Kurulum Adımları
+## Installation
 
 - Clone project from GitHub.
 
