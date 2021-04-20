@@ -62,7 +62,7 @@ class OrderController extends Controller
                 return response()->json(['message' => 'Something went wrong.'], 479);
             }
         } else {
-            return response()->json(['message' => 'Some parameters are missing. Please check that your request has : orderCode,address,productId,quantity,shippingDate'], 479);
+            return response()->json(['message' => 'Some parameters are missing. Please check that your request has : address,productId,quantity,shippingDate'], 479);
         }
     }
 
