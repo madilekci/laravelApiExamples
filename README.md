@@ -10,7 +10,7 @@ Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsini
     DB_DATABASE=example_db  <br>
     DB_USERNAME=root  <br>
     DB_PASSWORD=  <br>
-then rename it to “.env”
+**then rename it to “.env”
 
 - Run the “init.sh” script to execute following commands from command line :   <br>
     composer update  <br>
