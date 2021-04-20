@@ -16,8 +16,11 @@ class User extends Authenticatable
     ];
 
     protected $hidden = [
+      'id',
       'password',
       'remember_token',
+      'created_at',
+      'updated_at'
     ];
 
     public function orders()
