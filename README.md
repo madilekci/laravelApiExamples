@@ -1,20 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 ## Test Projesi
 
 Bu projede basit bir şekilde Laravel Api lerinin kullanım örneklerini görebilirsiniz.
 
 ## Kurulum Adımları
 
-- 
-- 
-- 
+- Clone project from GitHub.
 
-## Api listesi
+- Copy and change the lines in the .env.example file for database access :
+    DB_DATABASE=example_db
+    DB_USERNAME=root
+    DB_PASSWORD=
+then rename it to “.env”
+
+- Run the “init.sh” script to execute following commands from command line : 
+    composer update
+    php artisan passport:install
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
+
+<hr>
+<pre>
+By completing these steps; We installed the necessary packages, made the necessary settings for the database connection,
+and created the tables.
+If you followed the steps correctly and everything is fine, there should be 3 records created using "factory"
+for customers and one admin user in the users table. 
+</pre>
+
+## All passwords are set to "password".
+ 	Email address of the admin user: admin@admin.com
+
+<pre>
+Everything is now ready to use the APIs in the project.
+To get started: You can get the email addresses of existing users 
+by sending a GET request to http://127.0.0.1:8000/api/users.
+
+You can use the "API DOC" for more information about how APIs can be used.
+</pre>
