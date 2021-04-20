@@ -35,5 +35,5 @@ Everything is now ready to use the APIs in the project.
 To get started: You can get the email addresses of existing users 
 by sending a GET request to http://127.0.0.1:8000/api/users.
 
-You can use the "API DOC" for more information about how APIs can be used.
+You can use the <a href="https://github.com/madilekci/laravelApiExamples/blob/main/Api%20Doc.pdf">"API DOC"</a> for more information about how APIs can be used.
 </pre>
