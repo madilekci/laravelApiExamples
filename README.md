@@ -7,9 +7,9 @@ Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsini
 - Clone project from GitHub.
 
 - Copy and change the lines in the .env.example file for database access :
-    DB_DATABASE=example_db
-    DB_USERNAME=root
-    DB_PASSWORD=
+    DB_DATABASE=example_db  <br>
+    DB_USERNAME=root  <br>
+    DB_PASSWORD=  <br>
 then rename it to “.env”
 
 - Run the “init.sh” script to execute following commands from command line : 
