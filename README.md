@@ -12,12 +12,12 @@ Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsini
     DB_PASSWORD=  <br>
 then rename it to “.env”
 
-- Run the “init.sh” script to execute following commands from command line : 
-    composer update
-    php artisan passport:install
-    php artisan key:generate
-    php artisan migrate
-    php artisan db:seed
+- Run the “init.sh” script to execute following commands from command line :   <br>
+    composer update  <br>
+    php artisan passport:install  <br>
+    php artisan key:generate  <br>
+    php artisan migrate  <br>
+    php artisan db:seed  <br>
 
 <hr>
 <pre>
