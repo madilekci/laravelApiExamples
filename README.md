@@ -3,8 +3,16 @@
 Bu projede basit düzeyde Laravel Api işlemlerinin örneklerini  görebilirsiniz. <br>
 Örnek senaryo : A firması bir tedarikçi firmadır ve 3 müşterisi vardır. Bu 3 müşteri A firmasının
 API'ı üzerinden sipariş oluşturabilir, var olan siparişlerini görebilir ve 
-nakliye günü gelmemiş siparişlerini güncelleyebilirler. Buna göre A firmasının
-API'ında olması gereken özellikler:
+nakliye günü gelmemiş siparişlerini güncelleyebilirler. Ayrıca A firmasına ait bir admin kullanıcısı sadece bütün siparişler için işlem yapabilir. <br>
+Buna göre A firmasının API'ında olması gereken özellikler:
+<ul>
+    <li>Sisteme login olma</li>
+    <li>Yeni sipariş oluşturma</li>
+    <li>Nakliye günü gelmediyse sipariş güncelleme</li>
+    <li>Belirli bir siparişi görüntüleme ( orderCode ile )</li>
+    <li>Tüm siparişlerini listeleme</li>
+    <li>Yeni sipariş oluşturma</li>
+</ul>
 
 ## Kurulum Adımları
 
