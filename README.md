@@ -3,7 +3,7 @@
 You can see examples of simple Laravel API processes in this project. <br>
 Sample scenario: Firm A is a supplier and has 3 customers. These 3 customers can create an order through this API, view existing orders and
 update their orders whose shipping day has not passed. <br>
-In addition, an admin user belonging to company A can make transactions for all orders, regardless of who they belong to. <br>
+In addition, an administrator user belonging to company A can make transactions for all orders regardless of who they belong to, while normal users can only make operations for their own orders. <br>
 
 Accordingly, the features that company A should have in its API:
 <ul>
