@@ -16,6 +16,7 @@ Accordingly, the features that company A should have in its API:
 </ul>
 
 <hr>
+
 ## You can get an idea about following subjects by inspecting this project in addition of API samples : 
     <ul>
         <li> How to use Passport , tokens & middlewares for Authentication in Laravel APIs </li>
