@@ -10,7 +10,7 @@ Accordingly, the features that company A should have in its API:
     <li> Login to the system </li>
     <li> Create a new order </li>
     <li> Update the order  if the shipping day has not passed</li>
-    <li> Displaying a specific order (with orderCode) </li>
+    <li> Display a specific order (with orderCode) </li>
     <li> List orders </li>
     <li> Create a new order </li>
 </ul>
@@ -21,8 +21,8 @@ Accordingly, the features that company A should have in its API:
 <ul>
     <li> How to use Passport , tokens & middlewares for Authentication in Laravel APIs </li>
     <li> How to use Seeders </li>
-    <li> How to use migrations </li>
-    <li> How to use factories </li>
+    <li> How to use Migrations </li>
+    <li> How to use Factories </li>
 </ul>
 <hr>
 
